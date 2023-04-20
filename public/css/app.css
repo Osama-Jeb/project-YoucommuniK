@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+nav{
+    background-color: #1a1a1d;
+ 
+    height: 15vh;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-about{
+    padding: 30px;
+    width: 15vw;
+    height: 12vh;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    gap: 25px;
+}
+
+
+
+/* main packages */
+
+
+.packages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(59, 108, 172);
+    height:35vh;
+    color: white;
+    font-size: x-large;
+}
+
+
+@media (min-width:375px) and (max-width:425px) {
+    /* madia navbar */
+    .hidden{
+        display: none;
+    }
+
+    /* media packages */
+    .packages :first-child{
+        display: none;
+    }
+
+    .packages-text{
+        font-size: small;
+    }
+}
