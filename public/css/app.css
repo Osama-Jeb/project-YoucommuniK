@@ -16,7 +16,7 @@ nav{
 
 .logo-about{
     padding: 15px;
-    width: 15vw;
+    width: 12vw;
     height: 12vh;
 }
 
@@ -45,6 +45,23 @@ nav{
 }
 
 
+/* Eclosion & Evolution */
+.center-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 15vh;
+}
+
+.center-elements>button{
+    border: none;
+    background-color: rgb(59, 108, 172);
+    color: white;
+    padding: 25px 60px 25px 60px;
+    font-size: 50px;
+}
+
 @media (min-width:375px) and (max-width:425px) {
     /* madia navbar */
     .hidden{
@@ -58,5 +75,14 @@ nav{
 
     .packages-text{
         font-size: small;
+    }
+
+    /* Eclosion & Evolution*/
+    .center-elements>button{
+        border: none;
+        background-color: rgb(59, 108, 172);
+        color: white;
+        padding: 10px 30px 10px 30px;
+        font-size: 35px;
     }
 }
