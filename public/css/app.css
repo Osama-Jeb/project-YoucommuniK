@@ -45,7 +45,7 @@ nav{
 }
 
 
-/* Eclosion & Evolution */
+/* Eclosion & Evolution & Envol */
 .center-elements{
     display: flex;
     justify-content: center;
@@ -77,7 +77,7 @@ nav{
         font-size: small;
     }
 
-    /* Eclosion & Evolution*/
+    /* Eclosion & Evolution & Envol*/
     .center-elements>button{
         border: none;
         background-color: rgb(59, 108, 172);
