@@ -48,6 +48,7 @@ nav{
 /* Eclosion */
 .eclosion-parent{
     padding: 2rem;
+    margin-top: 30%;
 }
 
 /* Eclosion & Evolution & Envol buttons */
@@ -92,9 +93,16 @@ nav{
     align-items: center;
     height: 30vh;
     text-align: center;
+    margin-top: 30%;
 }
 
 /* Evolution */
+.evo-parent{
+    margin-top: 30%;
+    height: 35vh;
+    padding: 20px;
+    background-color: #EAE3D6;
+}
 .evolution-icons{
     display: flex;
     justify-content: space-evenly;
@@ -102,11 +110,6 @@ nav{
     text-align: center;
 }
 
-.evo-parent{
-    height: 35vh;
-    padding: 20px;
-    background-color: #EAE3D6;
-}
 
 .carte-visite{
     display: flex;
@@ -171,12 +174,12 @@ nav{
     .evo-parent{
         display: block;
         margin-top: 30%;
-        height: 111vh;
+        height: 125vh;
     }
     .evolution-icons{
         display: block;
     }
     .evolution-icons>div{
-        padding-bottom: 15px;
+        padding-bottom: 25px;
     }
 }
