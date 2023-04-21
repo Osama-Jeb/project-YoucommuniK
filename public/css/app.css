@@ -115,7 +115,25 @@ nav{
     flex-direction: column;
 }
 
+/* footer */
 
+.footer{
+ display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: rgb(45, 45, 45);
+height: 30vh;
+
+}
+
+.img-footer>img{
+    padding: 6px;
+}
+
+
+footer h4{
+    color: white;
+}
 @media (min-width:375px) and (max-width:425px) {
     /* madia navbar */
     .hidden{
@@ -179,4 +197,19 @@ nav{
     .evolution-icons>div{
         padding-bottom: 15px;
     }
+
+    /* media footer */
+
+    .footer{
+        display: block;
+        height: 69vh;
+        padding-top: 1rem;
+
+    }
+
+    .footer>div{
+        margin-left: 35px;
+        padding: 5px;
+    }
 }
+
