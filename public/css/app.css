@@ -191,10 +191,10 @@ footer h4{
         display: block;
         margin-top: 30%;
         height: 125vh;
+        padding: 40px;
     }
     .evolution-icons{
         display: block;
-        padding: 50px;
     }
     .evolution-icons>div{
         padding-bottom: 15px;
@@ -212,6 +212,10 @@ footer h4{
     .footer>div{
         margin-left: 35px;
         padding: 5px;
+    }
+
+    .footer>div>h4{
+        font-size: xx-large;
     }
 }
 
