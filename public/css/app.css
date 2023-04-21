@@ -134,7 +134,7 @@ height: 30vh;
 footer h4{
     color: white;
 }
-@media (min-width:375px) and (max-width:425px) {
+@media (min-width:375px) and (max-width:426px) {
     /* madia navbar */
     .hidden{
         display: none;
