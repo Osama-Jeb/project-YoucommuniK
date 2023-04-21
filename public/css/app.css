@@ -179,7 +179,8 @@ footer h4{
     .eclosion-icons{
         margin-top: 30%;
         display: block;
-        height: 100vh;
+        height: 90vh;
+        padding: 50px;
     }
     .eclosion-icons>div{
         padding-bottom: 15px;
@@ -193,6 +194,7 @@ footer h4{
     }
     .evolution-icons{
         display: block;
+        padding: 50px;
     }
     .evolution-icons>div{
         padding-bottom: 15px;
