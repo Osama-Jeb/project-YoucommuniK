@@ -187,7 +187,7 @@ footer h4 {
 
     /* Eclo & envo Icons */
     .eclosion-icons {
-        margin-top: 30%;
+        margin-top: 20%;
         display: block;
         height: auto;
         padding: 50px;
@@ -200,14 +200,16 @@ footer h4 {
     /* Evolution Icons */
     .evo-parent {
         display: block;
-        margin-top: 30%;
+        margin-top: 20%;
         height: auto;
         padding: 40px;
+        text-align: center;
     }
 
     .evo-parent>div {
         margin: auto;
         padding-bottom: 20px;
+        width: 100%;
     }
 
 
