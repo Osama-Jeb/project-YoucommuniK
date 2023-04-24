@@ -147,11 +147,13 @@ footer h4 {
 @media (min-width:375px) and (max-width:426px) {
 
     /* madia navbar */
-    
+    nav{
+        height: 14vh;
+    }
+
     [src="./public/img/logo-horizontal-fond-noir-couleur.png"] {
         width: 65%;
     }
-
 
     label #btn {
         display: block;
