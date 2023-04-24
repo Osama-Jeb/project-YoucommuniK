@@ -148,7 +148,7 @@ footer h4 {
 
     /* madia navbar */
     nav{
-        height: 14vh;
+        height: 17vh;
     }
 
     [src="./public/img/logo-horizontal-fond-noir-couleur.png"] {
@@ -157,7 +157,7 @@ footer h4 {
 
     label #btn {
         display: block;
-        margin: 10px 15px 0 0;
+        margin: 20px 15px 0 0;
     }
 
     ul {
